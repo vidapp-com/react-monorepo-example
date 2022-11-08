@@ -1,5 +1,5 @@
 {
-  "name": "@react-monorepo-example/app",
+  "name": "@react-monorepo-example/app-two",
   "version": "0.0.1",
   "private": true,
   "workspaces": {

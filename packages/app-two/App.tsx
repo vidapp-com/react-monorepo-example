@@ -25,7 +25,7 @@ const App = () => {
 const NumberCount = () => {
     const {count, incrementCount, decrementCount} = useData();
     return (
-        <SafeAreaView style={{backgroundColor: 'yellow', flex: 1}}>
+        <SafeAreaView style={{backgroundColor: 'orange', flex: 1}}>
             <ScrollView contentInsetAdjustmentBehavior="automatic">
                 <Text>And our test number is {count}</Text>
                 <Button onPress={incrementCount} title={'Increment count'}/>
@@ -34,5 +34,4 @@ const NumberCount = () => {
         </SafeAreaView>
     );
 };
-
 export default App;
